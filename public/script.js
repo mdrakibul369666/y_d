@@ -8,4 +8,12 @@ document.getElementById('downloadButton').addEventListener('click', function() {
             alert(data); // Show a message to the user
         })
         .catch(error => console.error('Error:', error));
+
 });
+
+function refreshPage() {
+    location.reload();
+}
+
+
+

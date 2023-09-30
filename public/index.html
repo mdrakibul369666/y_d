@@ -10,11 +10,12 @@
     <div class="container">
         <h1>YouTube Downloader</h1>
         <form action="/download" method="GET">
-            <input type="text" name="url" placeholder="Enter YouTube URL">
+            <input type="text" name="url" id="urlInput" placeholder="Enter YouTube URL">
             <button type="submit">Download</button>
         </form>
+        <button onclick="refreshPage()">Refresh Page</button>
     </div>
 
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
